@@ -32,7 +32,7 @@ Version/11.0 Mobile/15E148 Safari/604.1
 
 ======
 ##Device: iPod touch (4th generation)
-
+======
 Safari op de Ipod: Mozilla/5.0 (iPod; CPU iPhone OS 6_0_1 like Mac OS X) 
 AppleWebKit/536.26 (KHTML, like Gecko) 
 Version/6.0 Mobile/10A523 Safari/8536.25

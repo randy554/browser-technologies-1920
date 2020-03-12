@@ -19,7 +19,7 @@ Laat je website voorlezen door een screenreader.
 ### Criteria
 - Zet je code op Github
 - Schrijf een Readme met:
-============================================
+======
 ##Device: iPad air 2 (BROWSER: Safari on an Apple iPad runnning 11.3)
 
 Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X)
@@ -30,7 +30,7 @@ Version/11.0 Mobile/15E148 Safari/604.1
 * Svg logo geeft geen knipoog
 * Hover over boek werkt hier met longpress
 
-============================================
+======
 ##Device: iPod touch (4th generation)
 
 Safari op de Ipod: Mozilla/5.0 (iPod; CPU iPhone OS 6_0_1 like Mac OS X) 

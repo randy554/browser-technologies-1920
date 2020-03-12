@@ -66,8 +66,21 @@ De site wordt goed voorgelezen. Hij begint gewoon bovenaan met de header waarin 
 Vervolgens loopt hij het hoofdmenu af. Voor de zoekvenster geeft hij zowel informatie over het invoerveld en de submitknop.
 Van de boeken pakt hij niet meteen de omschrijving van het boek maar de afbeelding. Op de detailpagina slaat hij vanuit de zoekvenster de titel en omschrijving van het boek over en gaat hij vervolgens direct naar de notitie kladblok. 
 
+======
 
    - Afbeeldingen uitzetten
+
+De ontbrekende afbeeldingen op de site worden vertegenwoordigd met een image placeholder en een gebroken afbeelding icoon.
+De vormgeving en structuur van de site zijn ongewijzigd. Dit is getest op de volgende browser:
+ 
+Firefox 74.0 on macOS Catalina 10.15
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0) 
+Gecko/20100101 Firefox/74.0
+   
+Chrome 80 on macOS Catalina 10.15
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
+AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/80.0.3987.132 Safari/537.36
    
    - Custom fonts uitzetten
    
@@ -89,14 +102,17 @@ Van de boeken pakt hij niet meteen de omschrijving van het boek maar de afbeeldi
  AppleWebKit/537.36 (KHTML, like Gecko) 
  Chrome/80.0.3987.132 Safari/537.36
  
+ 
+ Firefox 74.0 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0)
+ Gecko/20100101 Firefox/74.0
+ 
     - Muis/Trackpad werkt niet
+    
+    
     - Breedband internet uitzetten
     - Javascript (volledig)
-    - Cookies niet accepteren
-    - localStorage doet het niet
+    
 
-
-  - een beschrijving van alle features die je hebt getest
-  - een beschrijving van de Devices en browsers waar je op hebt getest
   - een beschrijving van de screenreader test
   - beschrijf hoe je de problemen hebt opgelost, of hoe je dit zou oplossen (met todo’s) als je genoeg tijd en budget zou hebben

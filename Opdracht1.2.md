@@ -109,9 +109,40 @@ Chrome/80.0.3987.132 Safari/537.36
  
     - Muis/Trackpad werkt niet
     
+ De hoofmenu wordt overgeslagen en de eerste tab begint bij het zoekveld. Vervolgens eindigd deze bij de zoekknop. 
+ Getest op browser:
+ 
+ Firefox 74.0 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0)
+ Gecko/20100101 Firefox/74.0
+ 
+ In tegenstelling tot Firefox tabt chrome wel door alle content heen (hoofdmenu,zoekveld en boeken). Op de detailpagina
+ worden wordt de titel en boekomschrijving overgeslagen. 
+ Getest op browser:
+ 
+ Chrome 80 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
+ AppleWebKit/537.36 (KHTML, like Gecko) 
+ Chrome/80.0.3987.132 Safari/537.36
+ 
+ Edge 80 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) 
+ AppleWebKit/537.36 (KHTML, like Gecko) 
+ Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66
+ 
+ Opera 67.0 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
+ AppleWebKit/537.36 (KHTML, like Gecko)
+ Chrome/80.0.3987.122 Safari/537.36 OPR/67.0.3575.53
     
     - Breedband internet uitzetten
     - Javascript (volledig)
+  
+ Alleen de hoofdmenu en zoekveld worden getoond de boeken niet. Getest met browser:
+  
+ Firefox 74.0 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0)
+ Gecko/20100101 Firefox/74.0
     
 
   - een beschrijving van de screenreader test

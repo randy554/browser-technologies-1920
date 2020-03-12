@@ -30,9 +30,10 @@ Version/11.0 Mobile/15E148 Safari/604.1
 * Svg logo geeft geen knipoog
 * Hover over boek werkt hier met longpress
 
-======
+
 ##Device: iPod touch (4th generation)
 ======
+
 Safari op de Ipod: Mozilla/5.0 (iPod; CPU iPhone OS 6_0_1 like Mac OS X) 
 AppleWebKit/536.26 (KHTML, like Gecko) 
 Version/6.0 Mobile/10A523 Safari/8536.25
@@ -40,14 +41,31 @@ Version/6.0 Mobile/10A523 Safari/8536.25
 * Header achtergrond wordt verkleind
 * Boeken worden niet weergegeven
 
-============================================
-##Device: Revolution
 
-Revolution Chrome: Mozilla/5.0 (Linux; Android 4.4.4; revolution Build/KTU84Q)
+##Device: Revolution
+======
+
+Chrome: Mozilla/5.0 (Linux; Android 4.4.4; revolution Build/KTU84Q)
 AppleWebKit/537.36 (KHTML, like Gecko) 
 Chrome/74.0.3729.112 Chrome 33.0.0.0 Mobile Safari/537.35
 
 * Op detailpagina loopt de header, zoekvenster niet helemaal door naar de rechterzijde van de pagina
+
+Screen reader
+======
+
+Ik heb voor de screenreader test gebruik gemaakt van de ChromeVox screenreader extentie binnen de volgende
+browers:
+
+Chrome 80 on macOS Catalina 10.15 
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) 
+AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/80.0.3987.132 Safari/537.36
+
+De site wordt goed voorgelezen. Hij begint gewoon bovenaan met de header waarin de h1 staat. 
+Vervolgens loopt hij het hoofdmenu af. Voor de zoekvenster geeft hij zowel informatie over het invoerveld en de submitknop.
+Van de boeken pakt hij niet meteen de omschrijving van het boek maar de afbeelding. Op de detailpagina slaat hij vanuit de zoekvenster de titel en omschrijving van het boek over en gaat hij vervolgens direct naar de notitie kladblok. 
+
 
    - Afbeeldingen uitzetten
    - Custom fonts uitzetten

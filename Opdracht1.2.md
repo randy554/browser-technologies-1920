@@ -68,8 +68,27 @@ Van de boeken pakt hij niet meteen de omschrijving van het boek maar de afbeeldi
 
 
    - Afbeeldingen uitzetten
+   
    - Custom fonts uitzetten
+   
+ Deze test heeft geen gevolgen gehad voor mijn site. Er werd namelijk geen gebruik gemaakt van custom fonts. Dit heb ik voor 
+ de zekerheid getest. Deze test uit te voeren heb ik gebruik gemaakt van de extentie: uBlock binnen de browser:
+ 
+ Firefox 74.0 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0) 
+ Gecko/20100101 Firefox/74.0
+ 
     - Kleur uitzetten & kleurenblindheid instellen
+ 
+ Met de wCAG - color extentie is het mogelijk om te testen op verschillende niveaus van kleurenblindheid. De verschillende    kleuren standen hadden niet veel effect op de usability van de site. Knoppen, zoekvelden en tekst waren goed te onderscheiden van elkaar. In de meeste vormen van kleurenblindheid zou eventueel de rode en oranje achtergrondskleuren van de hoofdmenu items kunnen worden aangepast.
+ 
+ Om deze test uit te voeren heb ik gebruik gemaakt van de extentie: WCAG - color contrast binnen de browser: 
+ 
+ Chrome 80 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
+ AppleWebKit/537.36 (KHTML, like Gecko) 
+ Chrome/80.0.3987.132 Safari/537.36
+ 
     - Muis/Trackpad werkt niet
     - Breedband internet uitzetten
     - Javascript (volledig)

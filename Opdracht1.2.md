@@ -38,6 +38,9 @@ De site wordt goed voorgelezen. Hij begint gewoon bovenaan met de header waarin 
 Vervolgens loopt hij het hoofdmenu af. Voor de zoekvenster geeft hij zowel informatie over het invoerveld en de submitknop.
 Van de boeken pakt hij niet meteen de omschrijving van het boek maar de afbeelding. Op de detailpagina slaat hij vanuit de zoekvenster de titel en omschrijving van het boek over en gaat hij vervolgens direct naar de notitie kladblok. 
 
+Ik ben er via de inspector achtergekomen dat het kladblok ook het main element bevat dus dat hij daarom waarschijnlijk meteen daar naartoe springt. Dit zou ik verder moeten testen. Ik vermoedt dat ik los daarvan de andere elementen nog focusable moet maken. Naast deze bijzonderheid wordt de tekst in engels voorgelezen. Via de inspector ben ik erachter gekomen dat dit ```lang="en"``` nog in de html stond.
+
+
 Ik heb voor de screenreader test gebruik gemaakt van de ChromeVox screenreader extentie binnen de volgende
 browers:
 
@@ -45,8 +48,6 @@ Chrome 80 on macOS Catalina 10.15
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) 
 AppleWebKit/537.36 (KHTML, like Gecko) 
 Chrome/80.0.3987.132 Safari/537.36
-
-
 
 
     - Afbeeldingen uitzetten
@@ -177,4 +178,13 @@ Chrome/80.0.3987.132 Safari/537.36
  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) 
  AppleWebKit/605.1.15 (KHTML, like Gecko) 
  Version/13.0.5 Safari/605.1.15
+ 
+    - LocalStorage en Cookies uitschakelen
+    
+ Ik heb heb deze test uitgevoerd door de cookies in de browser uit te schakelen. Dit had geen effect op de werking van de
+ website. De site maakt geen gebruik van deze technieken.
+   
+ Firefox 74.0 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0)
+ Gecko/20100101 Firefox/74.0
     

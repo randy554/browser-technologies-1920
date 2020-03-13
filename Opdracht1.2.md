@@ -6,7 +6,6 @@ Hoe zit het eigenlijk met Progressive Enhancement van je OBA opdracht? Waarschij
 Het doel van de deze opdracht is leren hoe je een website kan testen in verschillende browsers en devices, en hoe een screenreader werkt.
 
 
-
 ### Uitleg
 Pas Progressive enhancement toe op je OBA Web App. Test de 8 features uit opdracht 1.1 en verbeter de code waar mogelijk.
 
@@ -14,13 +13,10 @@ Test je OBA opdracht op verschillende devices en browsers. Noteer welk device en
 
 Laat je website voorlezen door een screenreader.
 
-### Test voor OBA site [WerkstukBuddy](https://heralt.github.io/project-1-1920/)
+# Test voor OBA site [WerkstukBuddy](https://heralt.github.io/project-1-1920/)
 
-### Criteria
-- Zet je code op Github
-- Schrijf een Readme met:
+Device: iPad air 2 (BROWSER: Safari on an Apple iPad runnning 11.3)
 ======
-##Device: iPad air 2 (BROWSER: Safari on an Apple iPad runnning 11.3)
 
 Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X)
 AppleWebkit/605.1.15 (KHTML, like Gecko)

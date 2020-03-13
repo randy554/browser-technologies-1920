@@ -31,7 +31,7 @@ Version/11.0 Mobile/15E148 Safari/604.1
 * Hover over boek werkt hier met longpress
 
 
-##Device: iPod touch (4th generation)
+Device: iPod touch (4th generation)
 ======
 
 Safari op de Ipod: Mozilla/5.0 (iPod; CPU iPhone OS 6_0_1 like Mac OS X) 
@@ -42,7 +42,7 @@ Version/6.0 Mobile/10A523 Safari/8536.25
 * Boeken worden niet weergegeven
 
 
-##Device: Revolution
+Device: Revolution
 ======
 
 Chrome: Mozilla/5.0 (Linux; Android 4.4.4; revolution Build/KTU84Q)
@@ -51,7 +51,7 @@ Chrome/74.0.3729.112 Chrome 33.0.0.0 Mobile Safari/537.35
 
 * Op detailpagina loopt de header, zoekvenster niet helemaal door naar de rechterzijde van de pagina
 
-Screen reader
+Screenreader
 ======
 
 Ik heb voor de screenreader test gebruik gemaakt van de ChromeVox screenreader extentie binnen de volgende
@@ -136,6 +136,38 @@ Chrome/80.0.3987.132 Safari/537.36
  Chrome/80.0.3987.122 Safari/537.36 OPR/67.0.3575.53
     
     - Breedband internet uitzetten
+ 
+ De pagina was wat minder snel met laden. In sommige gevallen kon je de afbeeldingen voorzichtig zien laden. 
+ De laadtijd met Wi-Fi: 2,87s
+ De laadtijd met regular 3g: 5,53s
+ Getest op browser:
+ 
+ Firefox 74.0 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0) 
+ Gecko/20100101 Firefox/74.0
+ 
+ De pagina was wat minder snel met laden. In sommige gevallen kon je de afbeeldingen voorzichtig zien laden. 
+ De laadtijd met Wi-Fi: 2,16s
+ De laadtijd met slow 3g: 10,69s
+ De laadtijd met fast 3g: 6,45s 
+ Getest op browser:
+ 
+ Chrome 80 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) 
+ AppleWebKit/537.36 (KHTML, like Gecko) 
+ Chrome/80.0.3987.132 Safari/537.36
+ 
+ De pagina was wat minder snel met laden. In sommige gevallen kon je de afbeeldingen voorzichtig zien laden. 
+ De laadtijd met Wi-Fi: 1,70s
+ De laadtijd met slow 3g: 7,74s
+ De laadtijd met fast 3g: 3,22s 
+ Getest op browser:
+ 
+ Opera 67.0 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) 
+ AppleWebKit/537.36 (KHTML, like Gecko) 
+ Chrome/80.0.3987.122 Safari/537.36 OPR/67.0.3575.53
+ 
     - Javascript (volledig)
   
  Alleen de hoofdmenu en zoekveld worden getoond de boeken niet. Getest met browser:
@@ -143,7 +175,14 @@ Chrome/80.0.3987.132 Safari/537.36
  Firefox 74.0 on macOS Catalina 10.15
  Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0)
  Gecko/20100101 Firefox/74.0
+ 
+ Chrome 80 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
+ AppleWebKit/537.36 (KHTML, like Gecko) 
+ Chrome/80.0.3987.132 Safari/537.36
+ 
+ Safari 13.0.5 on macOS Catalina 10.15
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) 
+ AppleWebKit/605.1.15 (KHTML, like Gecko) 
+ Version/13.0.5 Safari/605.1.15
     
-
-  - een beschrijving van de screenreader test
-  - beschrijf hoe je de problemen hebt opgelost, of hoe je dit zou oplossen (met todo’s) als je genoeg tijd en budget zou hebben

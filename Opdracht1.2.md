@@ -1,18 +1,3 @@
-# Browser Technologies
-## Opdracht 1.2 - Fork je OBA
-Hoe zit het eigenlijk met Progressive Enhancement van je OBA opdracht? Waarschijnlijk kan daar wel het één en ander aan verbeterd worden, dat ding is immers in een week in elkaar gehackt!
-
-### Doel van deze opdracht
-Het doel van de deze opdracht is leren hoe je een website kan testen in verschillende browsers en devices, en hoe een screenreader werkt.
-
-
-### Uitleg
-Pas Progressive enhancement toe op je OBA Web App. Test de 8 features uit opdracht 1.1 en verbeter de code waar mogelijk.
-
-Test je OBA opdracht op verschillende devices en browsers. Noteer welk device en welke browsers je hebt getest. TEst je OBA opdracht minimaal in 3 devices, en naast Chrome in Firefox en nog een andere browser.
-
-Laat je website voorlezen door een screenreader.
-
 # Test voor OBA site [WerkstukBuddy](https://heralt.github.io/project-1-1920/)
 
 Device: iPad air 2 (BROWSER: Safari on an Apple iPad runnning 11.3)
@@ -49,6 +34,9 @@ Chrome/74.0.3729.112 Chrome 33.0.0.0 Mobile Safari/537.35
 
 Screenreader
 ======
+De site wordt goed voorgelezen. Hij begint gewoon bovenaan met de header waarin de h1 staat. 
+Vervolgens loopt hij het hoofdmenu af. Voor de zoekvenster geeft hij zowel informatie over het invoerveld en de submitknop.
+Van de boeken pakt hij niet meteen de omschrijving van het boek maar de afbeelding. Op de detailpagina slaat hij vanuit de zoekvenster de titel en omschrijving van het boek over en gaat hij vervolgens direct naar de notitie kladblok. 
 
 Ik heb voor de screenreader test gebruik gemaakt van de ChromeVox screenreader extentie binnen de volgende
 browers:
@@ -58,15 +46,15 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
 AppleWebKit/537.36 (KHTML, like Gecko) 
 Chrome/80.0.3987.132 Safari/537.36
 
-De site wordt goed voorgelezen. Hij begint gewoon bovenaan met de header waarin de h1 staat. 
-Vervolgens loopt hij het hoofdmenu af. Voor de zoekvenster geeft hij zowel informatie over het invoerveld en de submitknop.
-Van de boeken pakt hij niet meteen de omschrijving van het boek maar de afbeelding. Op de detailpagina slaat hij vanuit de zoekvenster de titel en omschrijving van het boek over en gaat hij vervolgens direct naar de notitie kladblok. 
+
 
 
     - Afbeeldingen uitzetten
 
 De ontbrekende afbeeldingen op de site worden vertegenwoordigd met een image placeholder en een gebroken afbeelding icoon.
 De vormgeving en structuur van de site zijn ongewijzigd. Dit is getest op de volgende browser:
+ 
+ ***
  
 Firefox 74.0 on macOS Catalina 10.15
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0) 

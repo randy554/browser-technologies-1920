@@ -62,9 +62,8 @@ De site wordt goed voorgelezen. Hij begint gewoon bovenaan met de header waarin 
 Vervolgens loopt hij het hoofdmenu af. Voor de zoekvenster geeft hij zowel informatie over het invoerveld en de submitknop.
 Van de boeken pakt hij niet meteen de omschrijving van het boek maar de afbeelding. Op de detailpagina slaat hij vanuit de zoekvenster de titel en omschrijving van het boek over en gaat hij vervolgens direct naar de notitie kladblok. 
 
-======
 
-   - Afbeeldingen uitzetten
+    - Afbeeldingen uitzetten
 
 De ontbrekende afbeeldingen op de site worden vertegenwoordigd met een image placeholder en een gebroken afbeelding icoon.
 De vormgeving en structuur van de site zijn ongewijzigd. Dit is getest op de volgende browser:
@@ -78,7 +77,7 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
 AppleWebKit/537.36 (KHTML, like Gecko)
 Chrome/80.0.3987.132 Safari/537.36
    
-   - Custom fonts uitzetten
+    - Custom fonts uitzetten
    
  Deze test heeft geen gevolgen gehad voor mijn site. Er werd namelijk geen gebruik gemaakt van custom fonts. Dit heb ik voor 
  de zekerheid getest. Deze test uit te voeren heb ik gebruik gemaakt van de extentie: uBlock binnen de browser:
@@ -105,7 +104,7 @@ Chrome/80.0.3987.132 Safari/537.36
  
     - Muis/Trackpad werkt niet
     
- De hoofmenu wordt overgeslagen en de eerste tab begint bij het zoekveld. Vervolgens eindigd deze bij de zoekknop. 
+ Het hoofmenu wordt overgeslagen en de eerste tab begint bij het zoekveld. Vervolgens eindigd deze bij de zoekknop. 
  Getest op browser:
  
  Firefox 74.0 on macOS Catalina 10.15
@@ -166,8 +165,10 @@ Chrome/80.0.3987.132 Safari/537.36
  
     - Javascript (volledig)
   
- Alleen de hoofdmenu en zoekveld worden getoond de boeken niet. Getest met browser:
-  
+ Alleen het hoofdmenu en zoekveld worden getoond de boeken niet. Getest met de volgende browsers met hetzelfde resultaat:
+ 
+ ***
+ 
  Firefox 74.0 on macOS Catalina 10.15
  Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0)
  Gecko/20100101 Firefox/74.0

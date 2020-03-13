@@ -92,6 +92,8 @@ Chrome/80.0.3987.132 Safari/537.36
  
  Om deze test uit te voeren heb ik gebruik gemaakt van de extentie: WCAG - color contrast binnen de browser: 
  
+  ***
+ 
  Chrome 80 on macOS Catalina 10.15
  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
  AppleWebKit/537.36 (KHTML, like Gecko) 
@@ -113,7 +115,9 @@ Chrome/80.0.3987.132 Safari/537.36
  
  In tegenstelling tot Firefox tabt chrome wel door alle content heen (hoofdmenu,zoekveld en boeken). Op de detailpagina
  worden wordt de titel en boekomschrijving overgeslagen. 
- Getest op browser:
+ Getest met de volgende browsers met hetzelfde resultaat:
+ 
+  ***
  
  Chrome 80 on macOS Catalina 10.15
  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3)
@@ -133,8 +137,9 @@ Chrome/80.0.3987.132 Safari/537.36
     - Breedband internet uitzetten
  
  De pagina was wat minder snel met laden. In sommige gevallen kon je de afbeeldingen voorzichtig zien laden. 
- De laadtijd met Wi-Fi: 2,87s
- De laadtijd met regular 3g: 5,53s
+ * De laadtijd met Wi-Fi: 2,87s
+ * De laadtijd met regular 3g: 5,53s
+ 
  Getest op browser:
  
  Firefox 74.0 on macOS Catalina 10.15
@@ -142,9 +147,10 @@ Chrome/80.0.3987.132 Safari/537.36
  Gecko/20100101 Firefox/74.0
  
  De pagina was wat minder snel met laden. In sommige gevallen kon je de afbeeldingen voorzichtig zien laden. 
- De laadtijd met Wi-Fi: 2,16s
- De laadtijd met slow 3g: 10,69s
- De laadtijd met fast 3g: 6,45s 
+ * De laadtijd met Wi-Fi: 2,16s
+ * De laadtijd met slow 3g: 10,69s
+ * De laadtijd met fast 3g: 6,45s 
+ 
  Getest op browser:
  
  Chrome 80 on macOS Catalina 10.15
@@ -153,9 +159,10 @@ Chrome/80.0.3987.132 Safari/537.36
  Chrome/80.0.3987.132 Safari/537.36
  
  De pagina was wat minder snel met laden. In sommige gevallen kon je de afbeeldingen voorzichtig zien laden. 
- De laadtijd met Wi-Fi: 1,70s
- De laadtijd met slow 3g: 7,74s
- De laadtijd met fast 3g: 3,22s 
+ * De laadtijd met Wi-Fi: 1,70s
+ * De laadtijd met slow 3g: 7,74s
+ * De laadtijd met fast 3g: 3,22s 
+ 
  Getest op browser:
  
  Opera 67.0 on macOS Catalina 10.15

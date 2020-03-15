@@ -11,7 +11,7 @@ Version/11.0 Mobile/15E148 Safari/604.1
 * Svg logo geeft geen knipoog
 * Hover over boek werkt hier met longpress
 
-[iPad](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/hoofdpagina_close.jpeg)
+![iPad](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/hoofdpagina_close.jpeg)
 [iPad2](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/detailpagina.jpeg)
 
 Device: iPod touch (4th generation)

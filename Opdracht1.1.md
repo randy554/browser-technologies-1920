@@ -3,9 +3,10 @@
 Heb op firefox en chrome getest hoe de ervaring is na het uitzetten van afbeeldingen.
 
 Ik heb daarvoor deze sites bezocht:
-nu.nl
-marktplaats.nl
-Instagram.com
+
+* nu.nl
+* marktplaats.nl
+* instagram.com
 
 
 ### [Nu.nl](http://nu.nl)
@@ -13,10 +14,10 @@ De site bezoek ik dagelijks. Ik merkte daardoor de snelheidverschil die de site 
 
 Bij Chrome wel een gebroken afbeelding icoon.
 
-### Marktplaats.nl
+### [Marktplaats.nl](http://marktplaats.nl)
 Marktplaatst laat wel image placeholders zien. Google ads om de content heen laten wel een gebroken afbeelding icoon zien.
 
-### Instagram.com
+### [Instagram.com](http://instagram.com)
 Instagram laat ook overal image placeholders zien. Afbeeldingen die voorzien zijn van een alt-tekst weergeven de alt tekst in de image placeholder. Afbeeldingen die dat niet hebben vertonen linksboven in de image placeholder een gebroken afbeelding icoon.
 
 #### Oplossing
@@ -24,11 +25,11 @@ Maak gebruik van alt tekst en zorg dat de afbeelding placeholder een vast width 
 
 #### Hoe zet je images uit in Firefox?
 
-Open Firefox -> Tik about:config in de browser -> Klik I accept the risk -> zoek vervolgens op permissions.default.image -> zet de waarde op 2.
+    - Open Firefox -> Tik about:config in de browser -> Klik I accept the risk -> zoek vervolgens op permissions.default.image -> zet de waarde op 2.
 
 #### Hoe zet je images uit in Chrome?
 
-Klik recht op de drie puntjes menu -> settings -> zoek op site settings -> site settings -> images -> Switch show all naar uit.
+    - Klik recht op de drie puntjes menu -> settings -> zoek op site settings -> site settings -> images -> Switch show all naar uit.
 
 
 ## Breedband internet uitzetten
@@ -42,7 +43,7 @@ Wees zuinig met afbeeldingen. Optimaliseer ze voor gebruik op het web.
 
 #### Hoe breedband uit te zetten via Chrome, Firefox & Opera:
 
-Rechter muisknop -> Inspect element -> Network tab.
+    - Rechter muisknop -> Inspect element -> Network tab.
 
 Nu.nl
 

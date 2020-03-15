@@ -11,8 +11,11 @@ Version/11.0 Mobile/15E148 Safari/604.1
 * Svg logo geeft geen knipoog
 * Hover over boek werkt hier met longpress
 
+Hoofdpagina
 ![iPad](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/hoofdpagina_close.jpeg)
-[iPad2](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/detailpagina.jpeg)
+
+Detailpagina
+![iPad2](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/detailpagina.jpeg)
 
 Device: iPod touch (4th generation)
 ======
@@ -24,7 +27,8 @@ Version/6.0 Mobile/10A523 Safari/8536.25
 * Header achtergrond wordt verkleind
 * Boeken worden niet weergegeven
 
-[iPod Touch](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/iPod_touch.jpg)
+Ipod Touch
+![iPod Touch](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/iPod_touch.jpg)
 
 Device: Revolution
 ======
@@ -35,8 +39,8 @@ Chrome/74.0.3729.112 Chrome 33.0.0.0 Mobile Safari/537.35
 
 * Op detailpagina loopt de header, zoekvenster niet helemaal door naar de rechterzijde van de pagina
 
-[Revolution](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/revolution.jpg)
-[Revolution2](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/revolution2.jpg)
+![Revolution](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/revolution.jpg)
+![Revolution2](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/revolution2.jpg)
 
 Screenreader
 ======

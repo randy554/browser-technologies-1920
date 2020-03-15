@@ -8,7 +8,7 @@ marktplaats.nl
 Instagram.com
 
 
-### Nu.nl
+### [Nu.nl](http://nu.nl)
 De site bezoek ik dagelijks. Ik merkte daardoor de snelheidverschil die de site heeft zonder afbeeldingen. Opvallend is dat nu.nl op de plek waar afbeeldingen normaal zouden staan, helemaal niks weergeeft. Dus geen image placeholder of een icoon van een gebroken afbeelding. Dit gedrag wordt zowel op firefox, chrome, mac & windows vertoont.
 
 Bij Chrome wel een gebroken afbeelding icoon.

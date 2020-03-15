@@ -33,11 +33,11 @@ Instagram laat ook overal image placeholders zien. Afbeeldingen die voorzien zij
 #### Oplossing
 Maak gebruik van alt tekst en zorg dat de afbeelding placeholder een vast width en hight hebben met een achtergrondskleur.
 
-#### Hoe zet je images uit in Firefox
+#### Hoe zet je images uit in Firefox?
 
 Open Firefox -> Tik about:config in de browser -> Klik I accept the risk -> zoek vervolgens op permissions.default.image -> zet de waarde op 2.
 
-#### Hoe zet je images uit in Chrome
+#### Hoe zet je images uit in Chrome?
 
 Klik recht op de drie puntjes menu -> settings -> zoek op site settings -> site settings -> images -> Switch show all naar uit.
 
@@ -51,7 +51,7 @@ Ik heb voor de test gebruik gemaakt van de homepagina van nu.nl.  Over het algem
 
 Wees zuinig met afbeeldingen. Optimaliseer ze voor gebruik op het web. 
 
-#### Hoe breedband uit te zetten via Chrome, Firefox & Opera
+#### Hoe breedband uit te zetten via Chrome, Firefox & Opera:
 
 Rechter muisknop -> Inspect element -> Network tab.
 

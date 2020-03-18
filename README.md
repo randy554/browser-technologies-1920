@@ -108,11 +108,10 @@ Verder werken aan opdracht 2
 Code review en beoordelingsgesprekken opdracht 2.
 
 
+# Case 1
 
-
-
-
-
+## Wireflow
+![Wireflow case 1](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/screenflow.png)
 
 
 

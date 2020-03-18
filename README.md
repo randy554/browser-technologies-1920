@@ -110,6 +110,8 @@ Code review en beoordelingsgesprekken opdracht 2.
 
 # Case 1
 
+Voor de minor web development wil ik een enquete app bouwen.
+
 ## Wireflow
 ![Wireflow case 1](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/screenflow.png)
 

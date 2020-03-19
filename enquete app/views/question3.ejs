@@ -1,0 +1,29 @@
+<%- include('./partials/header.ejs') %>
+
+    <h1>Enquete</h1>
+
+    <p>Pagina 3/5</p>
+
+    <p>Jaar opleiding</p>
+    <form method="post" action="/vraag/4">
+        <label for="schooljaar1">
+            <input id="schooljaar1" type="radio" name="jaaropleiding" value="jaar1">
+            Jaar 1
+        </label>
+        <label for="schooljaar2">
+            <input id="schooljaar2" type="radio" name="jaaropleiding" value="jaar2">
+            Jaar 2
+        </label>
+        <label for="schooljaar3">
+            <input id="schooljaar3" type="radio" name="jaaropleiding" value="jaar3">
+            Jaar 3
+        </label>
+        <label for="schooljaar4">
+            <input id="schooljaar4" type="radio" name="jaaropleiding" value="jaar4">
+            Jaar 4
+        </label>
+        <input type="button" value="Vorige">
+        <input type="submit" value="Volgende">
+    </form>
+
+<%- include("./partials/footer.ejs") %>

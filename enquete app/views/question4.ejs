@@ -1,0 +1,29 @@
+<%- include('./partials/header.ejs') %>
+
+    <h1>Enquete</h1>
+
+    <p>Pagina 3/5</p>
+
+    <p>Skills</p>
+    <form method="post" action="/successpage">
+        <label for="skills1">
+            <input id="skills1" type="checkbox" name="studentSkill" value="html">
+            HTML
+        </label>
+        <label for="skills2">
+            <input id="skills2" type="checkbox" name="studentSkill" value="css">
+            CSS
+        </label>
+        <label for="skills3">
+            <input id="skills3" type="checkbox" name="studentSkill" value="javascript">
+            Javascript
+        </label>
+        <label for="skills4">
+            <input id="skills4" type="checkbox" name="studentSkill" value="nodejs/expressjs">
+            NodeJS/ExpressJS
+        </label>
+        <input type="button" value="Vorige">
+        <input type="submit" value="Volgende">
+    </form>
+
+<%- include("./partials/footer.ejs") %>

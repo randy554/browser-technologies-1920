@@ -1,0 +1,27 @@
+<%- include('./partials/header.ejs') %>
+
+    <h1>Enquete</h1>
+
+    <p>Pagina 2/5</p>
+
+    <form method="post" action="/vraag/3">
+        <label for="school">
+            School
+            <select name="studenSchool" id="school">
+                <option value="hva">HvA</option>
+                <option value="inholland">InHolland</option>
+            </select>
+        </label>
+        <label for="opleiding">
+            Opleiding
+            <select name="studentCourse" id="opleiding">
+                <option value="cmd">CMD</option>
+                <option value="TI">TI</option>
+                <option value="se">SE</option>
+            </select>
+        </label>
+        <input type="button" value="Vorige">
+        <input type="submit" value="Volgende">
+    </form>
+
+<%- include("./partials/footer.ejs") %>

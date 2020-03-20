@@ -119,7 +119,7 @@ aanmelden en hun gegevens achterlaten.
 ![Wireflow case 1](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/screenflow.png)
 
 2e iteratie met content
-![Wireflow case 1](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/Screenflow%202.png)
+![Wireflow case 2](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/Screenflow%202.png)
 
 ## Feedback
 

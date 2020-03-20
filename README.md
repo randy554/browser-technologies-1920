@@ -110,13 +110,24 @@ Code review en beoordelingsgesprekken opdracht 2.
 
 # Case 1
 
-Voor de minor web development wil ik een enquete app bouwen.
+Voor de minor web development wil ik een enquete app bouwen. Potentiele deelnemers van de minor kunnen hunzelf 
+aanmelden en hun gegevens achterlaten.
 
 ## Wireflow
+
+1e iteratie
 ![Wireflow case 1](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/screenflow.png)
 
+2e iteratie met content
+![Wireflow case 1](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/screenflow.png)
 
+## Feedback
 
+- Hoe kan ik controleren dat een bepaalde gebruiker al eerder heeft deelgenomen aan deze enquete en daarop gebasseerd
+zijn gegevens per pagina inladen?
+
+- Wat zou ik laag 3 kunnen verbeteren of eventueel toevoegen aan mijn concept?
+ 
 
 
 

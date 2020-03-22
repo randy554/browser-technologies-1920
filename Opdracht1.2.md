@@ -19,6 +19,17 @@ Detailpagina
 
 ![iPad2](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/detailpagina.jpeg)
 
+### Oplossing
+
+  ###### Header achtergrond wordt verkleind:
+
+    De header bevat op dit moment geen height en width. Dit element moet voorzien worden van een width met een relatieve
+    waarde zoals em. 
+    
+ ###### Hover over boek werkt hier met longpress:
+ 
+    Het ontwerp moet aangepast worden zodat de checkboxes bij boeken direct zichtbaar zijn en niet door middel van een hover.
+
 Device: iPod touch (4th generation)
 ======
 
@@ -32,6 +43,17 @@ Version/6.0 Mobile/10A523 Safari/8536.25
 Homepagina
 
 ![iPod Touch](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/iPod_touch.jpg)
+
+### Oplossing
+    
+###### Header achtergrond wordt verkleind
+
+    Dit element moet voorzien worden van een width met een relatieve waarde zoals em.
+ 
+###### Boeken worden niet weergegeven 
+
+    De API call moet server-side worden aangeroepen zodat als javascript uit staat in de browser dit niet van invloed is
+    op het leveren van de boeken(content).
 
 Device: Revolution
 ======
@@ -49,6 +71,15 @@ Homepagina
 Detailpagina
 
 ![Revolution2](https://raw.githubusercontent.com/randy554/browser-technologies-1920/master/docs/img/revolution2.jpg)
+
+### Oplossing
+    
+###### Op detailpagina loopt de header, zoekvenster niet helemaal door naar de rechterzijde van de pagina
+
+    Voor de header zie voorgaande oplossingen. De zoekbalk width wordt nu bepaald door Flexbox. Voor browsers die 
+    Flexbox niet ondersteunen zou ik aparte styling voor schrijven via @supports not. Hierbij zou ik het element 
+    voorzien van een width: 100%/vw. 
+
 
 Screenreader
 ======
@@ -143,7 +174,12 @@ Chrome/80.0.3987.132 Safari/537.36
     
     - Breedband internet uitzetten
  
- De pagina was wat minder snel met laden. In sommige gevallen kon je de afbeeldingen voorzichtig zien laden. 
+ De pagina was wat minder snel met laden. In sommige gevallen kon je de afbeeldingen voorzichtig zien laden.
+ De site weergeeft al content placeholder waardoor de gebruiker feedback krijgt dat er nog iets op de pagina 
+ hoort te komen. Daarna zou ik mijn afbeeldingen verkleinen op een lossles of lossy manier afhankelijk hoe 
+ belangrijk een kwalitatieve foto voor de gebruiker is. Voor mobiel zou ik dan deze afbeeldingen serveren. 
+ Verder zou ik richtlijnen opstellen voor bestandsgrote per type files zoals html, css en js. 
+  
  * De laadtijd met Wi-Fi: 2,87s
  * De laadtijd met regular 3g: 5,53s
  
@@ -179,7 +215,10 @@ Chrome/80.0.3987.132 Safari/537.36
  
     - Javascript (volledig)
   
- Alleen het hoofdmenu en zoekveld worden getoond de boeken niet. Getest met de volgende browsers met hetzelfde resultaat:
+ Alleen het hoofdmenu en zoekveld worden getoond de boeken niet. 
+ De oplossing hiervoor is om de  API call server-side uit te voeren en af te handelen. Vervolgens wordt de content naar de browser gestuurd.
+ 
+ Getest met de volgende browsers met hetzelfde resultaat:
  
  ***
  

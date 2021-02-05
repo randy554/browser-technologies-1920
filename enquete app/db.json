@@ -1,19 +1,8 @@
 {
   "data": [
     {
-      "nameStudent": "Heralt",
-      "numberStudent": "500621572"
+      "studentnaam": "Randy"
     },
-    {
-      "nameStudent": "Heralt",
-      "numberStudent": "500621487"
-    },
-    {
-      "studentCourse": "cmd"
-    },
-    {
-      "nameStudent": "Randy",
-      "numberStudent": "500621487"
-    }
+    {}
   ]
 }

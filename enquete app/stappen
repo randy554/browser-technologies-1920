@@ -1,0 +1,4 @@
+1. NAAM & STUDENTNUMMER
+2. OP ROUTE PAGINA 2
+   - gegevens uit req.body toekennen aan object.
+   - checken of studentnummer al in object zit.

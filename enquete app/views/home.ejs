@@ -1,7 +1,5 @@
 <%- include('./partials/header.ejs') %>
 
-    <h1>Enquete</h1>
-
     <p>Pagina 1/5</p>
 
     <form method="post" action="/vraag/2">
@@ -13,6 +11,7 @@
             Studentnummer
             <input type="text" id="studentNumber" name="numberStudent">
         </label>
+        <input type="hidden" name="page" value="1">
         <input type="submit" value="Volgende">
     </form>
 

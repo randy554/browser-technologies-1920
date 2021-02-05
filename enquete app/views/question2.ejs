@@ -1,13 +1,11 @@
 <%- include('./partials/header.ejs') %>
 
-    <h1>Enquete</h1>
-
     <p>Pagina 2/5</p>
 
     <form method="post" action="/vraag/3">
         <label for="school">
             School
-            <select name="studenSchool" id="school">
+            <select name="studentSchool" id="school">
                 <option value="hva">HvA</option>
                 <option value="inholland">InHolland</option>
             </select>
@@ -21,6 +19,7 @@
             </select>
         </label>
         <a href="/">Vorige</a>
+        <input type="hidden" name="page" value="2">
         <input type="submit" value="Volgende">
     </form>
 
